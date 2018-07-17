@@ -7,16 +7,8 @@ body {
 #menu {
   font-family: "Greta Mono Bold";
   font-size: 200%;
-}
-
-#link_table {
   position: absolute;
   top: 50%;
   transform: translate(50%, -50%);
   display: block;
-}
-
-th, td {
-    padding: 15px;
-    text-align: center;
 }
