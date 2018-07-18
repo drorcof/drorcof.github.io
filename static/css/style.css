@@ -1,8 +1,10 @@
 body {
-   background-image: url("/static/images/bg_women.jpg");
-   background-size: cover;
-   font-size: xx-large;
- }
+  background-image: url("/static/images/coming_soon_bg.png");
+  background-size: cover;
+  font-size: xx-large;
+  background-color: #D8FBE3;
+  overflow: hidden;
+}
 
 #menu {
   font-family: "Greta Mono Bold";
@@ -16,6 +18,28 @@ body {
   display: block;
 }
 
-#containter{
+#containter {
   width: 100%
+}
+
+#red-bg-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ffffff+30&0.48+0,0+10 */
+  background: -moz-linear-gradient(top, rgba(255, 0, 0, 0.48) 0%, rgba(255, 85, 85, 0) 10%, rgba(255, 255, 255, 0) 30%);
+  /* FF3.6-15 */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 0, 0, 0.48)), color-stop(10%, rgba(255, 85, 85, 0)), color-stop(30%, rgba(255, 255, 255, 0)));
+  /* Chrome4-9,Safari4-5 */
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0.48) 0%, rgba(255, 85, 85, 0) 10%, rgba(255, 255, 255, 0) 30%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -o-linear-gradient(top, rgba(255, 0, 0, 0.48) 0%, rgba(255, 85, 85, 0) 10%, rgba(255, 255, 255, 0) 30%);
+  /* Opera 11.10-11.50 */
+  background: -ms-linear-gradient(top, rgba(255, 0, 0, 0.48) 0%, rgba(255, 85, 85, 0) 10%, rgba(255, 255, 255, 0) 30%);
+  /* IE10 preview */
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.48) 0%, rgba(255, 85, 85, 0) 10%, rgba(255, 255, 255, 0) 30%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7aff0000', endColorstr='#00ffffff', GradientType=0);
+  /* IE6-9 */
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
 }
