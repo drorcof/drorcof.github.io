@@ -1,25 +1,40 @@
 body {
-  background-image: url("/static/images/coming_soon_bg.png");
-  background-size: cover;
   font-size: xx-large;
   background-color: #D8FBE3;
   overflow: hidden;
 }
 
+#bg-image{
+  position: absolute;
+  background-image: url("/static/images/coming_soon_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+}
+
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  body {
+  #bg-image {
     background-image: url("/static/images/coming_soon_bg@2x.png");
-    background-size: cover;
   }
+}
+
+
+a{
+  color: inherit;
+  text-decoration: inherit;
 }
 
 #menu {
   font-family: "Greta Mono Bold";
-  font-size: 200%;
+  font-size: 6vw;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   width: 100%;
   text-align: center;
   display: block;
@@ -45,7 +60,22 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7aff0000', endColorstr='#00ffffff', GradientType=0);
   /* IE6-9 */
-  margin: 0;
+  z-index: 1000;
   width: 100vw;
   height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#girl{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+
+#girl_img{
+  max-width: 11vw;
+  height: auto;
 }
