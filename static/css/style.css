@@ -60,7 +60,6 @@ a{
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7aff0000', endColorstr='#00ffffff', GradientType=0);
   /* IE6-9 */
-  z-index: 1000;
   width: 100vw;
   height: 100vh;
   position: absolute;
