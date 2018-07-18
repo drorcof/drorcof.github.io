@@ -6,6 +6,13 @@ body {
   overflow: hidden;
 }
 
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  body {
+    background-image: url("/static/images/coming_soon_bg@2x.png");
+    background-size: cover;
+  }
+}
+
 #menu {
   font-family: "Greta Mono Bold";
   font-size: 200%;
