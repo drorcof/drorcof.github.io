@@ -3,6 +3,10 @@
 .*
 ~*
 
+.DS_STore
+
+*.psd
+
 # ignore node/grunt dependency directories
 node_modules/
 
