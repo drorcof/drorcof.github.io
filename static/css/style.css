@@ -40,6 +40,7 @@ a{
   display: block;
 }
 
+
 #containter {
   width: 100%
 }
@@ -77,4 +78,14 @@ a{
 #girl_img{
   max-width: 11vw;
   height: auto;
+}
+
+@media screen and (orientation: portrait) {
+  #menu {
+    font-size: 8vw;
+  }
+  #girl_img{
+    max-width: 16vw;
+    height: auto;
+  }
 }
