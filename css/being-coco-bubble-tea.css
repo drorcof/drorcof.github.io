@@ -58,6 +58,17 @@
   top: 785px;
 }
 
+.img-04 {
+  top: 1350px;
+  background-color: #E8FFF6;
+  background-image: url('../img/coco/img04.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 213px auto;
+  height: 417px;
+  background-blend-mode: multiply;
+}
+
 .img-05 {
   top: 1510px;
 }
@@ -108,6 +119,17 @@
 
 .img-17 {
   top: 7595px;
+}
+
+.img-18 {
+  top: 8342px;
+  background-color: #E8FFF6;
+  background-image: url('../img/coco/img18.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 188px auto;
+  height: 207px;
+  background-blend-mode: multiply;
 }
 
 .img-19 {
