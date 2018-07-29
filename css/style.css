@@ -22,8 +22,9 @@ body {
   display: block;
   position: fixed;
   height: 100px;
-  width: 100%;
+  width: 100px;
   top: 50px;
+  left: 50%;
 
   background-repeat: no-repeat;
   background-size: 100px auto;
