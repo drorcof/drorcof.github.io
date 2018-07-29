@@ -1,0 +1,62 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #EDF3C5; /* before image loaded */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-logo {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: center center;
+  background-image: url('../img/she_bg copy@2x.png');
+}
+
+.title {
+  display: block;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 60%;
+  font-size: 200%;
+}
+
+@media only screen and (min-width: 1920px) {
+  body {
+    background-image: url('../img/7@2x.png');
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url('../img/7@2x.png');
+  }
+}
+
+@media only screen and (min-width: 668px) {
+  body {
+    background-image: url('../img/7@2x.png');
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  body {
+    background-image: url('../img/7@2x.png');
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url('../img/7@2x.png');
+  }
+}

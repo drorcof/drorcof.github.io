@@ -1,0 +1,147 @@
+.w2cols {
+  width: 213px;
+}
+
+.w3cols {
+  width: 328px;
+}
+
+.w4cols {
+  width: 443px;
+}
+
+.w5cols {
+  width: 558px;
+}
+
+.w6cols {
+  width: 673px;
+}
+
+.w7cols {
+  width: 788px;
+}
+
+.w8cols {
+  width: 903px;
+}
+
+.w9cols {
+  width: 1018px;
+}
+
+.w10cols {
+  width: 1133px;
+}
+
+.w11cols {
+  width: 1248px;
+}
+
+.w12cols {
+  width: 1363px;
+}
+
+.coco-img {
+  position: absolute;
+}
+
+.img-01 {
+  top: 317px;
+}
+
+.img-02 {
+  top: 883px;
+}
+
+.img-03 {
+  top: 785px;
+}
+
+.img-05 {
+  top: 1510px;
+}
+
+.img-06 {
+  top: 1939px;
+}
+
+.img-07 {
+  top: 2531px;
+}
+
+.img-08 {
+  top: 2485px;
+}
+
+.img-09 {
+  top: 2528px;
+}
+
+.img-10 {
+  top: 3604px;
+}
+
+.img-11 {
+  top: 4108px;
+}
+
+.img-12 {
+  top: 4908px;
+}
+
+.img-13 {
+  top: 4890px;
+}
+
+.img-14 {
+  top: 5693px;
+}
+
+.img-15 {
+  top: 6768px;
+}
+
+.img-16 {
+  top: 6869px;
+}
+
+.img-17 {
+  top: 7595px;
+}
+
+.img-19 {
+  top: 8290px;
+}
+
+.img-20 {
+  top: 9160px;
+}
+
+.img-21 {
+  top: 9459px;
+}
+
+
+.bottom-spacer {
+  position: absolute;
+  top: 10000px;
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 668px) {
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+}

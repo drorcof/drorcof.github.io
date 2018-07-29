@@ -1,0 +1,137 @@
+/**
+ * style.css
+ */
+
+body {
+  background-color: #E8FFF6;
+  font-family: "Greta Text Bold Italic";
+}
+
+.has-gradiant {
+  display: block;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0deg, rgba(255,0,0,0.00) 60%, rgba(255,0,0,0.20) 100%);
+}
+
+.top-logo {
+  display: block;
+  position: fixed;
+  height: 164px;
+  width: 100%;
+  top: 40px;
+
+  background-repeat: no-repeat;
+  background-size: 153px 164px;
+  background-position: center center;
+  background-image: url('../img/she_bg copy@2x.png');
+
+  z-index: 3;
+}
+
+.corner-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}
+
+.topleft {
+  position: fixed;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+}
+
+.topright {
+  position: fixed;
+  z-index: 2;
+  top: 20px;
+  right: 20px;
+}
+
+.bottomright {
+  position: fixed;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+
+.col-1 {
+  left: 38px;
+}
+
+.col-2 {
+  left: 153px;
+}
+
+.col-3 {
+  left: 268px;
+}
+
+.col-4 {
+  left: 383px;
+}
+
+.col-5 {
+  left: 498px;
+}
+
+.col-6 {
+  left: 613px;
+}
+
+.col-7 {
+  left: 728px;
+}
+
+.col-8 {
+  left: 843px;
+}
+
+.col-9 {
+  left: 958px;
+}
+
+.col-10 {
+  left: 1073px;
+}
+
+.col-11 {
+  left: 1188px;
+}
+
+.col-12 {
+  left: 1303px;
+}
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    width: 1800px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 1380px;
+  }
+}
+
+@media only screen and (min-width: 668px) {
+  .container {
+    width: 1380px; /*600px*/
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+}
