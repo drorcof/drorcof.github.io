@@ -17,12 +17,11 @@ section:not(:last-of-type) {
 .top-logo {
   display: block;
   position: fixed;
-  height: 164px;
-  width: 153px;
+  width: 100px;
   top: 91px;
 
   background-repeat: no-repeat;
-  background-size: 153px 164px;
+  background-size: 100px auto;
   background-position: center center;
   background-image: url('../img/she_bg copy@2x.png');
 
