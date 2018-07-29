@@ -25,11 +25,12 @@ body {
   width: 100px;
   top: 50px;
   left: 50%;
+  transform: translate(-50%, 0%);
 
   background-repeat: no-repeat;
   background-size: 100px auto;
   background-position: center center;
-  background-image: url('../img/she_bg copy@2x.png');
+  background-image: url('../img/she_bg copy.png');
 
   z-index: 3;
 }
@@ -68,71 +69,98 @@ body {
 
 
 .col-1 {
-  left: 38px;
+  left: var(--offset);
 }
 
 .col-2 {
-  left: 153px;
+  left: calc(var(--offset) + var(--col-width));
 }
 
 .col-3 {
-  left: 268px;
+  left: calc(var(--offset) + 2 * var(--col-width));
 }
 
 .col-4 {
-  left: 383px;
+  left: calc(var(--offset) + 3 * var(--col-width));
 }
 
 .col-5 {
-  left: 498px;
+  left: calc(var(--offset) + 4 * var(--col-width));
 }
 
 .col-6 {
-  left: 613px;
+  left: calc(var(--offset) + 5 * var(--col-width));
 }
 
 .col-7 {
-  left: 728px;
+  left: calc(var(--offset) + 6 * var(--col-width));
 }
 
 .col-8 {
-  left: 843px;
+  left: calc(var(--offset) + 7 * var(--col-width));
 }
 
 .col-9 {
-  left: 958px;
+  left: calc(var(--offset) + 8 * var(--col-width));
 }
 
 .col-10 {
-  left: 1073px;
+  left: calc(var(--offset) + 9 * var(--col-width));
 }
 
 .col-11 {
-  left: 1188px;
+  left: calc(var(--offset) + 10 * var(--col-width));
 }
 
 .col-12 {
-  left: 1303px;
+  left: calc(var(--offset) + 11 * var(--col-width));
 }
 
-@media only screen and (min-width: 1920px) {
+.container {
+  width: 100%; /*600px*/
+}
+body {
+  --top-unit: 100vw;
+  --col-width: calc(100% * (115 / 1440));
+  --offset: calc(100% * (38 / 1440));
+  --col-net-width: calc(100% * (98 / 1440));
+}
+
+/* @media only screen and (min-width: 1920px) {
   .container {
     width: 1800px;
   }
-}
+} */
 
 @media only screen and (min-width: 1440px) {
   .container {
-    width: 1380px;
+    width: 1440px;
+  }
+  body {
+    --top-unit: 1440px;
+    --col-width: 115px;
+    --offset: 38px;
+    --col-net-width: 98px;
   }
 }
 
 @media only screen and (min-width: 668px) {
-  .container {
-    width: 1380px; /*600px*/
-  }
+
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min--moz-device-pixel-ratio: 1.25),
+only screen and ( -o-min-device-pixel-ratio: 1.25/1),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx)
+{
+	.top-logo {
+    background-image: url('../img/she_bg copy@2x.png');
+  }
 }

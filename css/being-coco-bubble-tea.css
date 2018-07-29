@@ -1,45 +1,46 @@
+
 .w2cols {
-  width: 213px;
+  width: calc(var(--col-net-width) + var(--col-width));
 }
 
 .w3cols {
-  width: 328px;
+  width: calc(var(--col-net-width) + 2 * var(--col-width));
 }
 
 .w4cols {
-  width: 443px;
+  width: calc(var(--col-net-width) + 3 * var(--col-width));
 }
 
 .w5cols {
-  width: 558px;
+  width: calc(var(--col-net-width) + 4 * var(--col-width));
 }
 
 .w6cols {
-  width: 673px;
+  width: calc(var(--col-net-width) + 5 * var(--col-width));
 }
 
 .w7cols {
-  width: 788px;
+  width: calc(var(--col-net-width) + 6 * var(--col-width));
 }
 
 .w8cols {
-  width: 903px;
+  width: calc(var(--col-net-width) + 7 * var(--col-width));
 }
 
 .w9cols {
-  width: 1018px;
+  width: calc(var(--col-net-width) + 8 * var(--col-width));
 }
 
 .w10cols {
-  width: 1133px;
+  width: calc(var(--col-net-width) + 9 * var(--col-width));
 }
 
 .w11cols {
-  width: 1248px;
+  width: calc(var(--col-net-width) + 10 * var(--col-width));
 }
 
 .w12cols {
-  width: 1363px;
+  width: calc(var(--col-net-width) + 11 * var(--col-width));
 }
 
 .coco-img {
@@ -47,107 +48,107 @@
 }
 
 .img-01 {
-  top: 317px;
+  top: calc(317 * (var(--top-unit) / 1440));
 }
 
 .img-02 {
-  top: 883px;
+  top: calc(883 * (var(--top-unit) / 1440));
 }
 
 .img-03 {
-  top: 785px;
+  top: calc(785 * (var(--top-unit) / 1440));
 }
 
 .img-04 {
-  top: 1350px;
+  top: calc(1350 * (var(--top-unit) / 1440));;
   background-color: #E8FFF6;
   background-image: url('../img/coco/img04.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 213px auto;
-  height: 417px;
+  background-size: calc(213 * (var(--top-unit) / 1440)); auto;
+  height: calc(417 * (var(--top-unit) / 1440));;
   background-blend-mode: multiply;
 }
 
 .img-05 {
-  top: 1510px;
+  top: calc(1510 * (var(--top-unit) / 1440));;
 }
 
 .img-06 {
-  top: 1939px;
+  top: calc(1939 * (var(--top-unit) / 1440));;
 }
 
 .img-07 {
-  top: 2531px;
+  top: calc(2531 * (var(--top-unit) / 1440));;
 }
 
 .img-08 {
-  top: 2485px;
+  top: calc(2485 * (var(--top-unit) / 1440));;
 }
 
 .img-09 {
-  top: 2528px;
+  top: calc(2528 * (var(--top-unit) / 1440));;
 }
 
 .img-10 {
-  top: 3604px;
+  top: calc(3604 * (var(--top-unit) / 1440));;
 }
 
 .img-11 {
-  top: 4108px;
+  top: calc(4108 * (var(--top-unit) / 1440));;
 }
 
 .img-12 {
-  top: 4908px;
+  top: calc(4908 * (var(--top-unit) / 1440));;
 }
 
 .img-13 {
-  top: 4890px;
+  top: calc(4890 * (var(--top-unit) / 1440));;
 }
 
 .img-14 {
-  top: 5693px;
+  top: calc(5693 * (var(--top-unit) / 1440));;
 }
 
 .img-15 {
-  top: 6768px;
+  top: calc(6768 * (var(--top-unit) / 1440));;
 }
 
 .img-16 {
-  top: 6869px;
+  top: calc(6869 * (var(--top-unit) / 1440));;
 }
 
 .img-17 {
-  top: 7595px;
+  top: calc(7595 * (var(--top-unit) / 1440));
 }
 
 .img-18 {
-  top: 8342px;
+  top: calc(8342 * (var(--top-unit) / 1440));
   background-color: #E8FFF6;
   background-image: url('../img/coco/img18.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 188px auto;
-  height: 207px;
+  background-size: calc(188 * (var(--top-unit) / 1440)); auto;
+  height: calc(207 * (var(--top-unit) / 1440));;
   background-blend-mode: multiply;
 }
 
 .img-19 {
-  top: 8290px;
+  top: calc(8290 * (var(--top-unit) / 1440));
 }
 
 .img-20 {
-  top: 9160px;
+  top: calc(9160 * (var(--top-unit) / 1440));
 }
 
 .img-21 {
-  top: 9459px;
+  top: calc(9459 * (var(--top-unit) / 1440));
 }
 
 
 .bottom-spacer {
   position: absolute;
-  top: 10000px;
+  top: calc(10000 * (var(--top-unit) / 1440));px;
   height: 100px;
   width: 100px;
 }
@@ -166,4 +167,21 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min--moz-device-pixel-ratio: 1.25),
+only screen and ( -o-min-device-pixel-ratio: 1.25/1),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx)
+{
+	.img-04 {
+    background-image: url('../img/coco/img04@2x.png');
+  }
+
+  .img-18 {
+    background-image: url('../img/coco/img18@2x.png');
+  }
 }
