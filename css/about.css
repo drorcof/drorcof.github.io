@@ -1,7 +1,7 @@
 .about {
   position: absolute;
   width: 500px;
-  top: 200px;
+  top: 286px;
   font-weight: bolder;
   line-height: 150%;
 }
@@ -12,4 +12,19 @@ h2 {
 
 section:not(:last-of-type) {
   margin-bottom: 50px;
+}
+
+.top-logo {
+  display: block;
+  position: fixed;
+  height: 164px;
+  width: 153px;
+  top: 91px;
+
+  background-repeat: no-repeat;
+  background-size: 153px 164px;
+  background-position: center center;
+  background-image: url('../img/she_bg copy@2x.png');
+
+  z-index: 3;
 }
